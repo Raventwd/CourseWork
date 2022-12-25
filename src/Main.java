@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        EmployeesBook employeesBook = new EmployeesBook();
+        employeesBook.printAllEmployees();
+        employeesBook.printSumSalary();
+        employeesBook.printAvgSalary();
+        employeesBook.printMinSalary();
+        employeesBook.printMaxSalary();
     }
 }
